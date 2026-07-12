@@ -17,6 +17,20 @@ const projects = [
     colSpan: "lg:col-span-2"
   },
   {
+    title: "Business Website & POS Admin Dashboard – DESH Digital Hub",
+    description: "Developed a fully responsive, modern Single Page Application (SPA) to digitally represent a commercial print shop and IT service center.",
+    contributions: [
+      { label: "UI/UX Design", text: "Designed a unique 'Anti-gravity' and Glassmorphism interface to enhance customer engagement." },
+      { label: "Admin & POS System", text: "Built a secure Admin Dashboard equipped with a custom Point of Sale (POS) system for daily shop operations." },
+      { label: "Backend Integration", text: "Integrated Firebase Authentication for secure admin access and Firestore NoSQL database for real-time sales data management." },
+      { label: "Automations", text: "Engineered a CI/CD pipeline using GitHub Actions for automated deployments, and integrated WhatsApp link generation for digital bills." }
+    ],
+    tech: ["React.js", "Vite", "Tailwind CSS", "Firebase", "GitHub Actions"],
+    link: "https://deshanparallax.github.io/desh-digital-hub/",
+    badge: "Freelance Project",
+    colSpan: "lg:col-span-3"
+  },
+  {
     title: "School Management System",
     description: "A comprehensive administration system engineered to streamline academic operations.",
     contributions: [
