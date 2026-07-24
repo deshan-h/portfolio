@@ -31,6 +31,19 @@ const projects = [
     colSpan: "lg:col-span-3"
   },
   {
+    title: "Advanced Expense & Finance Tracker",
+    description: "A highly performant, responsive React application for tracking personal expenses, business income, and lent money with a sleek Glassmorphism UI.",
+    contributions: [
+      { label: "UI/UX & Architecture", text: "Engineered a stunning, pixel-perfect glassmorphism interface and a scalable component architecture using React and Tailwind CSS." },
+      { label: "State Management", text: "Implemented complex custom hooks to manage transactions, categorize expenses, and drive real-time dashboard analytics." },
+      { label: "Performance Optimization", text: "Applied extreme performance optimizations including route-level code splitting with React.lazy and memoization to ensure silky smooth rendering." }
+    ],
+    tech: ["React.js", "Vite", "Tailwind CSS", "Recharts"],
+    link: "https://deshanparallax.github.io/expense-tracker/",
+    badge: "Personal Project",
+    colSpan: "lg:col-span-2"
+  },
+  {
     title: "School Management System",
     description: "A comprehensive administration system engineered to streamline academic operations.",
     contributions: [
@@ -92,8 +105,8 @@ export default function Projects() {
   };
 
   return (
-    <motion.section 
-      id="projects" 
+    <motion.section
+      id="projects"
       variants={container}
       initial="hidden"
       whileInView="visible"
@@ -106,10 +119,10 @@ export default function Projects() {
       <motion.div variants={item} className="flex items-center justify-between relative z-10">
         <h2 className="text-3xl font-bold text-white">Project Highlights</h2>
       </motion.div>
-      
+
       <div className="relative z-10 w-full group/slider">
         {/* Left Arrow */}
-        <button 
+        <button
           onClick={() => scroll('left')}
           className="flex absolute left-1 md:left-0 top-1/2 -translate-y-1/2 md:-translate-x-4 lg:-translate-x-6 w-10 h-10 md:w-12 md:h-12 bg-[#151b23]/80 md:bg-[#151b23] hover:bg-cyan-500/20 text-slate-300 hover:text-cyan-400 rounded-full items-center justify-center shadow-[0_0_15px_rgba(0,0,0,0.5)] backdrop-blur z-20 transition-all border border-slate-700 hover:border-cyan-400/50"
         >
@@ -117,14 +130,14 @@ export default function Projects() {
         </button>
 
         {/* Right Arrow */}
-        <button 
+        <button
           onClick={() => scroll('right')}
           className="flex absolute right-1 md:right-0 top-1/2 -translate-y-1/2 md:translate-x-4 lg:translate-x-6 w-10 h-10 md:w-12 md:h-12 bg-[#151b23]/80 md:bg-[#151b23] hover:bg-cyan-500/20 text-slate-300 hover:text-cyan-400 rounded-full items-center justify-center shadow-[0_0_15px_rgba(0,0,0,0.5)] backdrop-blur z-20 transition-all border border-slate-700 hover:border-cyan-400/50"
         >
           <ChevronRight className="w-5 h-5 md:w-6 md:h-6" />
         </button>
 
-        <div 
+        <div
           ref={scrollContainerRef}
           className="flex overflow-x-auto gap-6 pb-12 pt-4 px-2 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
         >
@@ -136,9 +149,9 @@ export default function Projects() {
             }
 
             return (
-              <motion.div 
+              <motion.div
                 variants={item}
-                key={index} 
+                key={index}
                 className={`snap-center shrink-0 ${widthClass} bg-gradient-to-br from-[#151b23] to-[#111620] border border-slate-800 p-6 md:p-8 rounded-2xl flex flex-col group hover:border-cyan-500/50 hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-[0_0_30px_rgba(34,211,238,0.15)] relative overflow-hidden`}
               >
                 {/* Subtle inner highlight on top edge */}
@@ -159,7 +172,7 @@ export default function Projects() {
                     <ExternalLink className="w-5 h-5 group-hover/link:scale-110 transition-transform" />
                   </a>
                 </div>
-                
+
                 <p className="text-slate-400 text-base leading-relaxed mb-6 whitespace-normal">
                   {project.description}
                 </p>
@@ -177,11 +190,11 @@ export default function Projects() {
                     ))}
                   </ul>
                 </div>
-                
+
                 <div className="flex flex-wrap gap-2 mt-auto pt-6 border-t border-slate-800/50">
                   {project.tech.map((techItem, techIndex) => (
-                    <span 
-                      key={techIndex} 
+                    <span
+                      key={techIndex}
                       className="px-3 py-1.5 text-xs font-medium bg-[#111620] text-cyan-300 rounded-lg border border-slate-800 group-hover:border-cyan-500/30 transition-colors shadow-inner whitespace-nowrap"
                     >
                       {techItem}
