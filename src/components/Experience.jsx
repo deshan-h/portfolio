@@ -56,13 +56,30 @@ export default function Experience() {
           
           <div className="relative border-l border-slate-800 ml-3 space-y-10 pb-12">
             <motion.div variants={item} className="relative pl-8">
+              <div className="absolute w-4 h-4 bg-purple-400 rounded-full -left-[8.5px] top-6 shadow-[0_0_10px_rgba(168,85,247,0.8)]"></div>
+              <div className="bg-slate-900 border border-slate-800 hover:border-purple-500/50 transition-colors p-6 rounded-xl shadow-[0_0_15px_rgba(168,85,247,0.15)] hover:shadow-[0_0_25px_rgba(168,85,247,0.25)]">
+                <h4 className="text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">Freelance Full-Stack Developer</h4>
+                <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3 mt-2 mb-4">
+                  <span className="text-slate-300 font-medium text-sm">DESH Digital Hub (Independent Freelancer)</span>
+                  <span className="hidden sm:block text-slate-600">•</span>
+                  <span className="text-slate-400 text-sm">Aug 2026 - Present</span>
+                </div>
+                <div className="text-slate-400 text-sm md:text-base leading-relaxed space-y-3 mt-4">
+                  <p>
+                    Actively seeking new full-time opportunities while architecting and delivering high-quality web applications, specialized POS systems, and admin dashboards for diverse freelance clients.
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div variants={item} className="relative pl-8">
               <div className="absolute w-4 h-4 bg-cyan-400 rounded-full -left-[8.5px] top-6 shadow-[0_0_10px_rgba(34,211,238,0.8)]"></div>
               <div className="bg-slate-900 border border-slate-800 hover:border-cyan-500/50 transition-colors p-6 rounded-xl shadow-[0_0_15px_rgba(6,182,212,0.15)] hover:shadow-[0_0_25px_rgba(6,182,212,0.25)]">
                 <h4 className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Associate Software Engineer</h4>
                 <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3 mt-2 mb-4">
                   <span className="text-slate-300 font-medium text-sm">Parallax Technologies (Pvt) Ltd.</span>
                   <span className="hidden sm:block text-slate-600">•</span>
-                  <span className="text-slate-400 text-sm">Aug 2024 - Present</span>
+                  <span className="text-slate-400 text-sm">Aug 2024 - Aug 2026</span>
                 </div>
                 <div className="text-slate-400 text-sm md:text-base leading-relaxed space-y-3 mt-4">
                   <p className="font-medium text-slate-300 mb-2">Key Contributions & Achievements:</p>

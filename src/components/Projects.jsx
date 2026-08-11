@@ -26,7 +26,7 @@ const projects = [
       { label: "Automations", text: "Engineered a CI/CD pipeline using GitHub Actions for automated deployments, and integrated WhatsApp link generation for digital bills." }
     ],
     tech: ["React.js", "Vite", "Tailwind CSS", "Firebase", "GitHub Actions"],
-    link: "https://deshanparallax.github.io/desh-digital-hub/",
+    link: "https://deshan-h.github.io/desh-digital-hub/",
     badge: "Freelance Project",
     colSpan: "lg:col-span-3"
   },
@@ -39,7 +39,7 @@ const projects = [
       { label: "Performance Optimization", text: "Applied extreme performance optimizations including route-level code splitting with React.lazy and memoization to ensure silky smooth rendering." }
     ],
     tech: ["React.js", "Vite", "Tailwind CSS", "Recharts"],
-    link: "https://deshanparallax.github.io/expense-tracker/",
+    link: "https://deshan-h.github.io/expense-tracker/",
     badge: "Personal Project",
     colSpan: "lg:col-span-2"
   },

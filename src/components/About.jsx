@@ -30,7 +30,7 @@ export default function About() {
           My journey in software engineering is driven by a passion for <span className={highlight}>solving complex business challenges</span> through clean architecture and highly efficient code.
         </motion.p>
         <motion.p variants={item}>
-          Over the past <span className={highlight}>3+ years</span>, I have progressed from an intern to an <span className={highlight}>Associate Software Engineer</span>, building enterprise-grade platforms like courier management systems.
+          Over the past <span className={highlight}>3+ years</span>, I have progressed from an intern to an <span className={highlight}>Associate Software Engineer</span> at Parallax Technologies. Currently, I am operating as a <span className={highlight}>Freelance Full-Stack Developer</span>, delivering high-quality solutions for clients while actively seeking new full-time opportunities.
         </motion.p>
         <motion.p variants={item}>
           I hold a <span className={highlight}>BSc in Information Technology</span> from SIBA Campus, Kandy, which solidifies my foundational knowledge in software engineering and advanced databases.
