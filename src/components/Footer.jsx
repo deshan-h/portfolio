@@ -33,7 +33,7 @@ export default function Footer() {
           <a href="https://www.linkedin.com/in/deshan-hettiarachchi" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-purple-500 transition-colors p-2" aria-label="LinkedIn">
             <FaLinkedin className="w-6 h-6" />
           </a>
-          <a href="https://github.com/deshanparallax" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-cyan-400 transition-colors p-2" aria-label="GitHub">
+          <a href="https://github.com/deshan-h" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-cyan-400 transition-colors p-2" aria-label="GitHub">
             <FaGithub className="w-6 h-6" />
           </a>
         </div>
