@@ -2,6 +2,7 @@ import React from 'react';
 import { Mail, Phone } from 'lucide-react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { motion } from 'framer-motion';
+import logo from '../assets/logo.png';
 
 export default function Footer() {
   const container = {
@@ -19,8 +20,14 @@ export default function Footer() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="text-center md:text-left">
-          <div className="font-bold text-xl tracking-tighter text-white mb-2">Deshan Hettiarachchi</div>
-          <p className="text-slate-500 text-sm">© {new Date().getFullYear()} All rights reserved.</p>
+          <div className="flex items-center justify-center md:justify-start gap-3">
+            <span className="text-slate-400 font-medium text-sm md:text-base">Developed By</span>
+            <div className="flex items-center gap-2 px-3 py-1.5 rounded-full border border-slate-700 bg-slate-800/30">
+              <img src={logo} alt="DESH Logo" className="w-5 h-5 object-contain" />
+              <span className="font-bold text-white tracking-wider text-sm">DESH</span>
+            </div>
+          </div>
+          <p className="text-slate-600 text-xs mt-3">© {new Date().getFullYear()} All rights reserved.</p>
         </div>
         
         <div className="flex items-center space-x-6">
