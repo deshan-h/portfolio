@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Phone, CheckCircle, AlertCircle } from 'lucide-react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 export default function Contact() {
@@ -134,11 +134,14 @@ export default function Contact() {
             <div>
               <h3 className="text-xl font-bold text-white mb-6">Social Profiles</h3>
               <div className="flex gap-4">
-                <a href="https://www.linkedin.com/in/deshan-hettiarachchi" target="_blank" rel="noreferrer" className="w-14 h-14 rounded-full bg-[#151b23] border border-slate-800 flex items-center justify-center hover:border-purple-500/50 hover:bg-purple-500/10 transition-all group shadow-lg">
+                <a href="https://desh.s.gy/linkedin" target="_blank" rel="noreferrer" className="w-14 h-14 rounded-full bg-[#151b23] border border-slate-800 flex items-center justify-center hover:border-purple-500/50 hover:bg-purple-500/10 transition-all group shadow-lg">
                   <FaLinkedin className="w-6 h-6 text-slate-400 group-hover:text-purple-400 transition-colors" />
                 </a>
-                <a href="https://github.com/deshan-h" target="_blank" rel="noreferrer" className="w-14 h-14 rounded-full bg-[#151b23] border border-slate-800 flex items-center justify-center hover:border-cyan-400/50 hover:bg-cyan-400/10 transition-all group shadow-lg">
+                <a href="https://desh.s.gy/github" target="_blank" rel="noreferrer" className="w-14 h-14 rounded-full bg-[#151b23] border border-slate-800 flex items-center justify-center hover:border-cyan-400/50 hover:bg-cyan-400/10 transition-all group shadow-lg">
                   <FaGithub className="w-6 h-6 text-slate-400 group-hover:text-cyan-400 transition-colors" />
+                </a>
+                <a href="https://desh.s.gy/whatsapp" target="_blank" rel="noreferrer" className="w-14 h-14 rounded-full bg-[#151b23] border border-slate-800 flex items-center justify-center hover:border-green-500/50 hover:bg-green-500/10 transition-all group shadow-lg">
+                  <FaWhatsapp className="w-6 h-6 text-slate-400 group-hover:text-green-400 transition-colors" />
                 </a>
               </div>
             </div>

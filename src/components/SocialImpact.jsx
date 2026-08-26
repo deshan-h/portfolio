@@ -60,10 +60,10 @@ export default function SocialImpact() {
             </div>
             
             <h3 className="text-2xl font-bold text-white mb-1 z-10">Tech Content Creator</h3>
-            <div className="text-red-400 font-medium mb-8 z-10">@deshonlineLK</div>
+            <div className="text-red-400 font-medium mb-8 z-10">@desh_digital_hub</div>
             
             <h4 className="text-4xl md:text-5xl font-extrabold text-white mb-2 drop-shadow-md z-10 tabular-nums tracking-tight">
-              <AnimatedCounter to={313000} /><span className="text-red-500">+</span>
+              <AnimatedCounter to={325100} /><span className="text-red-500">+</span>
             </h4>
             <p className="text-slate-400 font-bold uppercase tracking-[0.2em] text-xs mb-8 z-10">Total Views</p>
             
@@ -71,7 +71,7 @@ export default function SocialImpact() {
               Sharing comprehensive tech guides, tutorials, and industry insights for the local IT community.
             </p>
             
-            <a href="https://www.youtube.com/@deshonlineLK" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-8 py-3 bg-red-500/10 hover:bg-red-500 text-red-400 hover:text-white border border-red-500/30 hover:border-red-500 rounded-full font-semibold transition-all duration-300 z-10 shadow-[0_0_15px_rgba(239,68,68,0.1)] hover:shadow-[0_0_25px_rgba(239,68,68,0.5)] group/btn">
+            <a href="https://desh.s.gy/youtube" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-8 py-3 bg-red-500/10 hover:bg-red-500 text-red-400 hover:text-white border border-red-500/30 hover:border-red-500 rounded-full font-semibold transition-all duration-300 z-10 shadow-[0_0_15px_rgba(239,68,68,0.1)] hover:shadow-[0_0_25px_rgba(239,68,68,0.5)] group/btn">
               Subscribe <FaArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
             </a>
           </div>
@@ -95,7 +95,7 @@ export default function SocialImpact() {
             </div>
             
             <h3 className="text-2xl font-bold text-white mb-1 z-10">Tech Educator</h3>
-            <div className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-400 font-medium mb-8 z-10">@deshonlineLK</div>
+            <div className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-400 font-medium mb-8 z-10">@desh_digital_hub</div>
             
             <h4 className="text-4xl md:text-5xl font-extrabold text-white mb-2 drop-shadow-md z-10 tabular-nums tracking-tight">
               <AnimatedCounter to={14100} /><span className="text-pink-500">+</span>
@@ -106,7 +106,7 @@ export default function SocialImpact() {
               Educating tech enthusiasts through bite-sized, practical tech tips and development hacks.
             </p>
             
-            <a href="https://www.tiktok.com/@deshonlineLK" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-8 py-3 bg-white/5 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-pink-500 text-slate-200 hover:text-white border border-white/10 hover:border-transparent rounded-full font-semibold transition-all duration-300 z-10 shadow-lg hover:shadow-[0_0_25px_rgba(236,72,153,0.4)] group/btn">
+            <a href="https://desh.s.gy/tiktok" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 px-8 py-3 bg-white/5 hover:bg-gradient-to-r hover:from-cyan-500 hover:to-pink-500 text-slate-200 hover:text-white border border-white/10 hover:border-transparent rounded-full font-semibold transition-all duration-300 z-10 shadow-lg hover:shadow-[0_0_25px_rgba(236,72,153,0.4)] group/btn">
               Follow <FaArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
             </a>
           </div>

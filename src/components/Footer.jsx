@@ -1,6 +1,6 @@
 import React from 'react';
 import { Mail, Phone } from 'lucide-react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import logo from '../assets/logo.png';
 
@@ -37,11 +37,14 @@ export default function Footer() {
           <a href="mailto:deshanhettiarachchi98@gmail.com" className="text-slate-400 hover:text-cyan-400 transition-colors p-2" aria-label="Email">
             <Mail className="w-6 h-6" />
           </a>
-          <a href="https://www.linkedin.com/in/deshan-hettiarachchi" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-purple-500 transition-colors p-2" aria-label="LinkedIn">
+          <a href="https://desh.s.gy/linkedin" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-purple-500 transition-colors p-2" aria-label="LinkedIn">
             <FaLinkedin className="w-6 h-6" />
           </a>
-          <a href="https://github.com/deshan-h" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-cyan-400 transition-colors p-2" aria-label="GitHub">
+          <a href="https://desh.s.gy/github" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-cyan-400 transition-colors p-2" aria-label="GitHub">
             <FaGithub className="w-6 h-6" />
+          </a>
+          <a href="https://desh.s.gy/whatsapp" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-green-500 transition-colors p-2" aria-label="WhatsApp">
+            <FaWhatsapp className="w-6 h-6" />
           </a>
         </div>
       </div>

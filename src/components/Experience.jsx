@@ -66,7 +66,7 @@ export default function Experience() {
                 </div>
                 <div className="text-slate-400 text-sm md:text-base leading-relaxed space-y-3 mt-4">
                   <p>
-                    Actively seeking new full-time opportunities while architecting and delivering high-quality web applications, specialized POS systems, and admin dashboards for diverse freelance clients.
+                    Deliver custom web solutions, enterprise dashboards, and modern SPAs for businesses through direct B2B contracts and professional referrals. Provide end-to-end development, ongoing maintenance, and critical bug fixes for existing web applications to ensure optimal performance.
                   </p>
                 </div>
               </div>
@@ -86,31 +86,19 @@ export default function Experience() {
                   <ul className="space-y-2.5">
                     <li className="flex items-start gap-2.5">
                       <span className="text-cyan-500 font-bold mt-0.5">▹</span>
-                      <span>Spearheaded full-stack frontend and backend development for the Curfox Courier Management System utilizing Laravel and Vue.js.</span>
+                      <span>Managed a 50M+ record multi-tenant database, executing critical performance tune-ups via indexing, partitioning, queues, and raw SQL refactoring, and implemented WebSockets to minimize server costs and maximize real-time delivery tracking speeds.</span>
                     </li>
                     <li className="flex items-start gap-2.5">
                       <span className="text-cyan-500 font-bold mt-0.5">▹</span>
-                      <span>Engineered core system optimizations for a massive database exceeding 50 million records, drastically improving application performance and scalability.</span>
+                      <span>Proactively monitored server infrastructure utilizing Huawei Cloud, Microsoft Clarity, and Sentry, successfully pinpointing areas for improvement and executing critical system optimizations.</span>
                     </li>
                     <li className="flex items-start gap-2.5">
                       <span className="text-cyan-500 font-bold mt-0.5">▹</span>
-                      <span>Implemented advanced database strategies, including table partitioning, strategic indexing, and automated data archiving, to optimize data retrieval and reduce storage overhead.</span>
+                      <span>Handled extensive server-side development, troubleshooted complex server-side issues, and orchestrated seamless production releases via Jenkins CI/CD pipelines while managing Linux staging environments.</span>
                     </li>
                     <li className="flex items-start gap-2.5">
                       <span className="text-cyan-500 font-bold mt-0.5">▹</span>
-                      <span>Integrated Redis caching and robust queue management to offload server processing, ensuring smooth execution of heavy background tasks.</span>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <span className="text-cyan-500 font-bold mt-0.5">▹</span>
-                      <span>Refactored resource-heavy Eloquent ORM queries into optimized raw SQL, significantly reducing query execution time and lowering server-side operational costs.</span>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <span className="text-cyan-500 font-bold mt-0.5">▹</span>
-                      <span>Orchestrated end-to-end sprint production releases and managed Linux staging environments, ensuring seamless deployments via Jenkins and custom CI/CD pipelines.</span>
-                    </li>
-                    <li className="flex items-start gap-2.5">
-                      <span className="text-cyan-500 font-bold mt-0.5">▹</span>
-                      <span>Administered highly available production databases, ensuring 99.9% uptime and secure data integrity.</span>
+                      <span>Mentored and conducted technical training sessions for interns and junior team members.</span>
                     </li>
                   </ul>
                   <div className="mt-4 inline-flex items-center gap-2 px-3 py-1 bg-yellow-500/10 border border-yellow-500/20 text-yellow-500 text-xs font-bold uppercase rounded shadow-inner">

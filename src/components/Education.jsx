@@ -77,7 +77,12 @@ export default function Education() {
                     Certifications
                   </h4>
                   
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div className="bg-slate-800/50 border border-slate-700/50 p-4 rounded-xl hover:border-blue-400/30 transition-colors">
+                      <h5 className="font-semibold text-slate-200 mb-1">Full-Stack Product Engineering Bootcamp</h5>
+                      <p className="text-sm text-slate-400">STEMLink (Ongoing)</p>
+                    </div>
+                    
                     <div className="bg-slate-800/50 border border-slate-700/50 p-4 rounded-xl hover:border-blue-400/30 transition-colors">
                       <h5 className="font-semibold text-slate-200 mb-1">Spoken English Course</h5>
                       <p className="text-sm text-slate-400">Sipway Institute</p>
