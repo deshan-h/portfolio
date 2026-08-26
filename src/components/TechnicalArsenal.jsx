@@ -14,7 +14,7 @@ const skillCategories = [
   {
     title: "Frameworks & Libraries",
     icon: <Layers className="w-5 h-5" />,
-    skills: ["Laravel", "Vue.js", "Inertia.js", "React.js (Familiar)", "Tailwind CSS", "HTML5", "CSS3"],
+    skills: ["Laravel", "Vue.js", "Inertia.js", "React.js (Familiar)", "Tailwind CSS", "WebSockets", "HTML5", "CSS3"],
     color: "text-emerald-400",
     bg: "bg-emerald-400/10",
     border: "hover:border-emerald-400/50"
@@ -30,7 +30,7 @@ const skillCategories = [
   {
     title: "DevOps & Cloud",
     icon: <Cloud className="w-5 h-5" />,
-    skills: ["Jenkins", "GitHub Actions (CI/CD Pipelines)", "Linux Server Management", "DO Bucket (DigitalOcean)", "Terminus"],
+    skills: ["Huawei Cloud", "Jenkins", "GitHub Actions (CI/CD Pipelines)", "Linux Server Management", "DO Bucket (DigitalOcean)", "Terminus"],
     color: "text-cyan-400",
     bg: "bg-cyan-400/10",
     border: "hover:border-cyan-400/50"
