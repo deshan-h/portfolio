@@ -7,11 +7,11 @@ const projects = [
     title: "Curfox Courier Management System",
     description: "Enterprise-grade logistics and courier management platform tailored to maximize delivery dispatch efficiency.",
     contributions: [
-      { label: "Database Optimization", text: "Architected database optimizations for 50M+ records using partitioning and Redis caching." },
-      { label: "CI/CD & Refactoring", text: "Integrated CI/CD pipelines, executed resource-heavy query refactoring, and lowered operational costs." },
-      { label: "Delivery Tracking", text: "Managed real-time delivery tracking updates, dynamic dispatch routing, and settlement modules." }
+      { label: "Performance Tuning", text: "Managed a 50M+ record multi-tenant database using strategic indexing, partitioning, queues, and raw SQL refactoring." },
+      { label: "Real-time Tracking", text: "Implemented WebSockets to minimize server costs and maximize real-time delivery tracking speeds and dispatch routing." },
+      { label: "DevOps & Infrastructure", text: "Orchestrated CI/CD pipelines via Jenkins, managed Linux environments, and proactively monitored servers using Huawei Cloud and Sentry." }
     ],
-    tech: ["Laravel", "Vue.js", "PostgreSQL/MySQL", "Redis", "Jenkins"],
+    tech: ["Laravel", "Vue.js", "MySQL", "Redis", "Jenkins", "WebSockets"],
     link: "https://demo.office.curfox.com/",
     badge: "Enterprise Project",
     colSpan: "lg:col-span-2"

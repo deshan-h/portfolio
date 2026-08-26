@@ -27,7 +27,12 @@ export default function Footer() {
               <span className="font-bold text-white tracking-wider text-sm">DESH</span>
             </div>
           </div>
-          <p className="text-slate-600 text-xs mt-3">© {new Date().getFullYear()} All rights reserved.</p>
+          <div className="flex items-center justify-center md:justify-start gap-4 mt-4">
+            <p className="text-slate-600 text-xs">© {new Date().getFullYear()} All rights reserved.</p>
+            <a href="https://hits.sh/deshan-h.github.io/" target="_blank" rel="noreferrer">
+              <img src="https://hits.sh/deshan-h.github.io.svg?style=for-the-badge&label=Views&color=a855f7&labelColor=0f172a" alt="Hit counter" className="h-5 opacity-70 hover:opacity-100 transition-opacity" />
+            </a>
+          </div>
         </div>
         
         <div className="flex items-center space-x-6">
