@@ -8,7 +8,9 @@ export default function Experience() {
   const carouselImages = [
     `${import.meta.env.BASE_URL}exp1.jpg`,
     `${import.meta.env.BASE_URL}exp2.jpg`,
-    `${import.meta.env.BASE_URL}exp3.jpg`
+    `${import.meta.env.BASE_URL}exp3.jpg`,
+    `${import.meta.env.BASE_URL}exp4.jpg`,
+    `${import.meta.env.BASE_URL}exp5.jpg`
   ];
 
   useEffect(() => {
