@@ -39,7 +39,7 @@ export default function About() {
           My core expertise lies in <span className={highlight}>Laravel, Vue.js, and MySQL</span>, alongside experience working with modern ecosystems like <span className={highlight}>React and Node.js</span>. Winning the <span className={highlight}>Star Performer Award</span> in 2024 was a milestone that validated my commitment to technical excellence and <span className={highlight}>system optimization</span>.
         </motion.p>
         <motion.p variants={item}>
-          Beyond writing production code and setting up DevOps pipelines, I believe in giving back to the community. Through my platform <span className={highlight}>@desh_digital_hub</span>, I educate and inspire over <span className={highlight}>14,000+ followers on TikTok</span> and have amassed <span className={highlight}>325.1K+ views on YouTube</span>, making complex tech concepts accessible to everyone.
+          Beyond writing production code and setting up DevOps pipelines, I believe in giving back to the community. Through my platform <span className={highlight}>@desh_digital_hub</span>, I educate and inspire over <span className={highlight}>14,000+ followers on TikTok</span> and have amassed <span className={highlight}>340K+ views on YouTube</span>, making complex tech concepts accessible to everyone.
         </motion.p>
       </div>
     </motion.div>

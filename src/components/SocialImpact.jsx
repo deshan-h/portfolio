@@ -63,7 +63,7 @@ export default function SocialImpact() {
             <div className="text-red-400 font-medium mb-8 z-10">@desh_digital_hub</div>
             
             <h4 className="text-4xl md:text-5xl font-extrabold text-white mb-2 drop-shadow-md z-10 tabular-nums tracking-tight">
-              <AnimatedCounter to={325100} /><span className="text-red-500">+</span>
+              <AnimatedCounter to={340000} /><span className="text-red-500">+</span>
             </h4>
             <p className="text-slate-400 font-bold uppercase tracking-[0.2em] text-xs mb-8 z-10">Total Views</p>
             
