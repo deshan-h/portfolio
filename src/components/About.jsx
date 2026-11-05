@@ -8,7 +8,7 @@ export default function About() {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: { staggerChildren: 0.3 }
+      transition: { staggerChildren: 0.2 }
     }
   };
 
@@ -25,21 +25,12 @@ export default function About() {
       id="about-details" 
       className="pt-6 text-slate-300 text-base md:text-lg leading-relaxed bg-transparent"
     >
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col gap-3.5">
         <motion.p variants={item}>
           My journey in software engineering is driven by a passion for <span className={highlight}>solving complex business challenges</span> through clean architecture and highly efficient code.
         </motion.p>
         <motion.p variants={item}>
-          Over the past <span className={highlight}>3+ years</span>, I have progressed from an intern to an <span className={highlight}>Associate Software Engineer</span> at Parallax Technologies. Currently, I am operating as a <span className={highlight}>Freelance Full-Stack Developer</span>, delivering high-quality solutions for clients while actively seeking new full-time opportunities.
-        </motion.p>
-        <motion.p variants={item}>
-          I hold a <span className={highlight}>BSc in Information Technology</span> from SIBA Campus, Kandy, which solidifies my foundational knowledge in software engineering and advanced databases. Currently, I am expanding my technical expertise through a <span className={highlight}>Full-stack Product Engineering Bootcamp</span> at STEMLink.
-        </motion.p>
-        <motion.p variants={item}>
-          My core expertise lies in <span className={highlight}>Laravel, Vue.js, and MySQL</span>, alongside experience working with modern ecosystems like <span className={highlight}>React and Node.js</span>. Winning the <span className={highlight}>Star Performer Award</span> in 2024 was a milestone that validated my commitment to technical excellence and <span className={highlight}>system optimization</span>.
-        </motion.p>
-        <motion.p variants={item}>
-          Beyond writing production code and setting up DevOps pipelines, I believe in giving back to the community. Through my platform <span className={highlight}>@desh_digital_hub</span>, I educate and inspire over <span className={highlight}>14,000+ followers on TikTok</span> and have amassed <span className={highlight}>340K+ views on YouTube</span>, making complex tech concepts accessible to everyone.
+          Over the past <span className={highlight}>3+ years</span>, I have progressed from an intern to an <span className={highlight}>Associate Software Engineer</span> at Parallax Technologies. Currently, I operate as a <span className={highlight}>Freelance Full-Stack Software Engineer</span> at DESH Digital Hub, delivering scalable web products and enterprise solutions while actively seeking new full-time opportunities.
         </motion.p>
       </div>
     </motion.div>

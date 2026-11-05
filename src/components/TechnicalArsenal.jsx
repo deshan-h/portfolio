@@ -9,7 +9,8 @@ import {
   Sparkles, 
   Palette,
   Terminal,
-  BrainCircuit
+  BrainCircuit,
+  Zap
 } from 'lucide-react';
 import { 
   SiPhp, 
@@ -18,6 +19,7 @@ import {
   SiCplusplus,
   SiLaravel, 
   SiVuedotjs, 
+  SiNextdotjs,
   SiInertia, 
   SiReact, 
   SiTailwindcss, 
@@ -27,10 +29,13 @@ import {
   SiShadcnui,
   SiMysql, 
   SiPostgresql, 
+  SiSupabase,
   SiRedis, 
   SiFirebase,
+  SiCloudflare,
   SiHuawei, 
   SiJenkins, 
+  SiVercel,
   SiGithubactions, 
   SiLinux, 
   SiDigitalocean, 
@@ -52,6 +57,18 @@ import {
   TbBrandAdobePremier, 
   TbBrandAdobeAfterEffect 
 } from 'react-icons/tb';
+
+const coreCompetencies = [
+  "Full-Stack Development",
+  "REST API Design",
+  "Database Optimization & Architecture",
+  "CI/CD Automation",
+  "Real-Time Systems (WebSockets)",
+  "System Performance Tuning",
+  "Agile / Scrum",
+  "Cross-Functional Team Leadership",
+  "Technical Mentorship"
+];
 
 const skillCategories = [
   {
@@ -77,6 +94,7 @@ const skillCategories = [
       { name: "Laravel", icon: SiLaravel, color: "text-[#FF2D20]" },
       { name: "Vue.js", icon: SiVuedotjs, color: "text-[#4FC08D]" },
       { name: "React.js", icon: SiReact, color: "text-[#61DAFB]" },
+      { name: "Next.js", icon: SiNextdotjs, color: "text-slate-100", tag: "App Router" },
       { name: "Tailwind CSS", icon: SiTailwindcss, color: "text-[#06B6D4]" },
       { name: "shadcn/ui", icon: SiShadcnui, color: "text-slate-100" },
       { name: "HTML5", icon: SiHtml5, color: "text-[#E34F26]" },
@@ -92,13 +110,15 @@ const skillCategories = [
     topGradient: "from-emerald-500 via-teal-500 to-transparent"
   },
   {
-    title: "Databases & Caching",
+    title: "Databases, Caching & Cloud Storage",
     icon: <Database className="w-5 h-5" />,
     skills: [
       { name: "MySQL", icon: SiMysql, color: "text-[#4479A1]" },
+      { name: "PostgreSQL", icon: SiPostgresql, color: "text-[#4169E1]" },
+      { name: "Supabase", icon: SiSupabase, color: "text-[#3ECF8E]" },
       { name: "Redis", icon: SiRedis, color: "text-[#DC382D]" },
-      { name: "Firebase / Firestore", icon: SiFirebase, color: "text-[#FFCA28]" },
-      { name: "PostgreSQL", icon: SiPostgresql, color: "text-[#4169E1]", tag: "Familiar" }
+      { name: "Firebase (Auth, Firestore)", icon: SiFirebase, color: "text-[#FFCA28]" },
+      { name: "Cloudflare R2", icon: SiCloudflare, color: "text-[#F38020]" }
     ],
     color: "text-amber-400",
     bg: "bg-amber-500/10",
@@ -107,15 +127,16 @@ const skillCategories = [
     topGradient: "from-amber-500 via-orange-500 to-transparent"
   },
   {
-    title: "DevOps & Cloud",
+    title: "DevOps & Cloud Infrastructure",
     icon: <Cloud className="w-5 h-5" />,
     skills: [
       { name: "Jenkins", icon: SiJenkins, color: "text-[#D24939]" },
-      { name: "Terminus", icon: SiTermius, color: "text-[#00D2FF]" },
-      { name: "DO Bucket", icon: SiDigitalocean, color: "text-[#0080FF]" },
       { name: "GitHub Actions", icon: SiGithubactions, color: "text-[#2088FF]", tag: "CI/CD" },
-      { name: "Linux Server", icon: SiLinux, color: "text-[#FCC624]", tag: "Familiar" },
-      { name: "Huawei Cloud", icon: SiHuawei, color: "text-[#C7000B]", tag: "Monitored" }
+      { name: "Vercel", icon: SiVercel, color: "text-slate-100" },
+      { name: "Linux Server", icon: SiLinux, color: "text-[#FCC624]", tag: "Admin" },
+      { name: "DigitalOcean", icon: SiDigitalocean, color: "text-[#0080FF]" },
+      { name: "Huawei Cloud", icon: SiHuawei, color: "text-[#C7000B]", tag: "Monitored" },
+      { name: "Terminus", icon: SiTermius, color: "text-[#00D2FF]" }
     ],
     color: "text-cyan-400",
     bg: "bg-cyan-500/10",
@@ -216,14 +237,35 @@ export default function TechnicalArsenal() {
 
   return (
     <section id="skills" className="space-y-10">
-      {/* Centered on mobile, Left-aligned on Desktop */}
-      <div className="text-center sm:text-left">
-        <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight">
-          Technical Arsenal
-        </h2>
-        <p className="text-slate-400 text-sm md:text-base mt-2 max-w-2xl mx-auto sm:mx-0">
-          Battle-tested production technologies, core frameworks, and specialized tools I leverage to build scalable software.
-        </p>
+      {/* Header and Core Competencies */}
+      <div className="space-y-6">
+        <div className="text-center sm:text-left">
+          <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight">
+            Technical Arsenal
+          </h2>
+          <p className="text-slate-400 text-sm md:text-base mt-2 max-w-2xl mx-auto sm:mx-0">
+            Battle-tested production technologies, core frameworks, and specialized tools I leverage to build scalable software.
+          </p>
+        </div>
+
+        {/* Core Competencies Quick-Pills from CV */}
+        <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-cyan-500/5 via-[#151c28]/70 to-purple-500/5 border border-slate-800/80 backdrop-blur-md">
+          <div className="text-xs uppercase font-bold tracking-widest text-slate-400 mb-3 text-center sm:text-left flex items-center justify-center sm:justify-start gap-2">
+            <Zap className="w-3.5 h-3.5 text-cyan-400" />
+            Core Architectural Competencies
+          </div>
+          <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2 sm:gap-2.5">
+            {coreCompetencies.map((comp, cIdx) => (
+              <span 
+                key={cIdx}
+                className="px-3.5 py-1.5 text-xs font-semibold rounded-xl bg-[#111722]/90 text-slate-200 border border-slate-700/60 hover:border-cyan-400/50 hover:text-cyan-300 hover:shadow-[0_0_15px_rgba(34,211,238,0.15)] transition-all duration-200 shadow-sm flex items-center gap-2"
+              >
+                <span className="w-1.5 h-1.5 rounded-full bg-cyan-400/80"></span>
+                {comp}
+              </span>
+            ))}
+          </div>
+        </div>
       </div>
 
       <motion.div 

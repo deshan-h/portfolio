@@ -66,7 +66,12 @@ export default function Education() {
 
                   <div className="text-slate-300 leading-relaxed border-l-2 border-purple-500/50 pl-4 group-hover:border-purple-400 transition-colors">
                     <span className="font-bold text-white block mb-1">Key Coursework:</span>
-                    <span className="text-slate-400 text-sm md:text-base">Software Engineering, Data Structures and Algorithms, Object-Oriented Programming, and Linux Administration.</span>
+                    <span className="text-slate-400 text-sm md:text-base">Software Engineering, Data Structures and Algorithms, Object-Oriented Programming (OOP), and Linux System Administration.</span>
+                  </div>
+
+                  <div className="text-slate-300 leading-relaxed border-l-2 border-emerald-500/50 pl-4 group-hover:border-emerald-400 transition-colors">
+                    <span className="font-bold text-white block mb-1">Secondary Education:</span>
+                    <span className="text-slate-400 text-sm md:text-base">G.C.E. Advanced Level (Technology Stream) — St. Anne's College, Kurunegala</span>
                   </div>
                 </div>
 
@@ -74,23 +79,16 @@ export default function Education() {
                 <div className="pt-6 mt-6 border-t border-slate-800">
                   <h4 className="flex items-center gap-2 text-lg font-bold text-slate-200 mb-4">
                     <FaCertificate className="text-blue-400" />
-                    Certifications
+                    Professional Engineering Training
                   </h4>
                   
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                    <div className="bg-slate-800/50 border border-slate-700/50 p-4 rounded-xl hover:border-blue-400/30 transition-colors">
-                      <h5 className="font-semibold text-slate-200 mb-1">Full-Stack Product Engineering Bootcamp</h5>
-                      <p className="text-sm text-slate-400">STEMLink (Ongoing)</p>
-                    </div>
-                    
-                    <div className="bg-slate-800/50 border border-slate-700/50 p-4 rounded-xl hover:border-blue-400/30 transition-colors">
-                      <h5 className="font-semibold text-slate-200 mb-1">Spoken English Course</h5>
-                      <p className="text-sm text-slate-400">Sipway Institute</p>
-                    </div>
-                    
-                    <div className="bg-slate-800/50 border border-slate-700/50 p-4 rounded-xl hover:border-blue-400/30 transition-colors">
-                      <h5 className="font-semibold text-slate-200 mb-1">English Language Certification</h5>
-                      <p className="text-sm text-slate-400">Britishway English Academy</p>
+                  <div className="max-w-xl">
+                    <div className="bg-gradient-to-r from-blue-500/10 via-slate-800/60 to-purple-500/10 border border-blue-500/30 p-4 sm:p-5 rounded-2xl hover:border-blue-400/50 transition-all shadow-md">
+                      <div className="flex flex-wrap items-center justify-between gap-2 mb-1.5">
+                        <h5 className="font-bold text-white text-base">Full-Stack Product Engineering Bootcamp</h5>
+                        <span className="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-blue-500/20 text-blue-300 border border-blue-500/40">Ongoing</span>
+                      </div>
+                      <p className="text-sm text-slate-400">STEMLink • Advanced Software Architecture & Scalable Product Delivery</p>
                     </div>
                   </div>
                 </div>

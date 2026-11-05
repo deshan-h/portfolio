@@ -4,12 +4,24 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
-    title: "Curfox Courier Management System",
-    description: "Enterprise-grade logistics and courier management platform tailored to maximize delivery dispatch efficiency.",
+    title: "DESH EduHub – Educational Resource Platform",
+    description: "High-performance, ad-free educational web platform providing seamless 1-click access to past papers and study materials for Sri Lankan students.",
     contributions: [
-      { label: "Performance Tuning", text: "Managed a 50M+ record multi-tenant database using strategic indexing, partitioning, queues, and raw SQL refactoring." },
-      { label: "Real-time Tracking", text: "Implemented WebSockets to minimize server costs and maximize real-time delivery tracking speeds and dispatch routing." },
-      { label: "DevOps & Infrastructure", text: "Orchestrated CI/CD pipelines via Jenkins, managed Linux environments, and proactively monitored servers using Huawei Cloud and Sentry." }
+      { label: "Backend & PDF Pipeline", text: "Engineered an automated backend pipeline using Node.js and pdf-lib to dynamically modify PDFs on the fly, seamlessly appending branded promotional pages before uploading directly to Cloudflare R2 object storage." },
+      { label: "PWA & UI/UX", text: "Designed a responsive dark-themed UI utilizing Tailwind CSS with modern glassmorphism elements, optimized as a Progressive Web App (PWA) with instant online viewing and high-speed downloading." }
+    ],
+    tech: ["Next.js (App Router)", "React", "Tailwind CSS", "Supabase", "Cloudflare R2", "pdf-lib", "Vercel"],
+    link: "https://desh.s.gy/edu-hub",
+    badge: "Featured Platform",
+    colSpan: "lg:col-span-3"
+  },
+  {
+    title: "Curfox Courier Management System",
+    description: "Enterprise-grade multi-tenant logistics platform engineered to maximize delivery dispatch efficiency and real-time operations at scale.",
+    contributions: [
+      { label: "Database Scaling", text: "Re-architected a high-volume 50M+ record multi-tenant database using table partitioning, composite indexing, and Redis queue-based asynchronous processing, drastically cutting query latency and server costs." },
+      { label: "Real-Time Tracking", text: "Engineered a WebSocket-driven real-time parcel tracking and automated rider dispatch system using Laravel and Vue.js, providing live operational visibility for merchants and end customers." },
+      { label: "DevOps & Reliability", text: "Managed automated zero-downtime deployment pipelines via Jenkins across Linux environments, utilizing Sentry and Huawei Cloud for proactive error tracking and performance tuning." }
     ],
     tech: ["Laravel", "Vue.js", "MySQL", "Redis", "Jenkins", "WebSockets"],
     link: "https://demo.office.curfox.com/",
@@ -18,25 +30,22 @@ const projects = [
   },
   {
     title: "Business Website & POS Admin Dashboard – DESH Digital Hub",
-    description: "Developed a fully responsive, modern Single Page Application (SPA) to digitally represent a commercial print shop and IT service center.",
+    description: "Modern SPA and custom POS platform delivered for a commercial print shop and IT service center.",
     contributions: [
-      { label: "UI/UX Design", text: "Designed a unique 'Anti-gravity' and Glassmorphism interface to enhance customer engagement." },
-      { label: "Admin & POS System", text: "Built a secure Admin Dashboard equipped with a custom Point of Sale (POS) system for daily shop operations." },
-      { label: "Backend Integration", text: "Integrated Firebase Authentication for secure admin access and Firestore NoSQL database for real-time sales data management." },
-      { label: "Automations", text: "Engineered a CI/CD pipeline using GitHub Actions for automated deployments, and integrated WhatsApp link generation for digital bills." }
+      { label: "Real-Time POS", text: "Built a secure, real-time POS admin dashboard using Firebase, enabling live sales tracking, inventory oversight, and financial reporting." },
+      { label: "Automated Deployments", text: "Automated deployment pipelines with GitHub Actions and integrated WhatsApp-based digital billing to streamline customer transactions." }
     ],
-    tech: ["React.js", "Vite", "Tailwind CSS", "Firebase", "GitHub Actions"],
+    tech: ["React.js", "Tailwind CSS", "Firebase", "GitHub Actions"],
     link: "https://deshan-h.github.io/desh-digital-hub/",
     badge: "Freelance Project",
-    colSpan: "lg:col-span-3"
+    colSpan: "lg:col-span-2"
   },
   {
     title: "Advanced Expense & Finance Tracker",
-    description: "A highly performant, responsive React application for tracking personal expenses, business income, and lent money with a sleek Glassmorphism UI.",
+    description: "High-performance SPA for personal and business financial management with interactive analytics.",
     contributions: [
-      { label: "UI/UX & Architecture", text: "Engineered a stunning, pixel-perfect glassmorphism interface and a scalable component architecture using React and Tailwind CSS." },
-      { label: "State Management", text: "Implemented complex custom hooks to manage transactions, categorize expenses, and drive real-time dashboard analytics." },
-      { label: "Performance Optimization", text: "Applied extreme performance optimizations including route-level code splitting with React.lazy and memoization to ensure silky smooth rendering." }
+      { label: "UI & Visualizations", text: "Architected a scalable component structure using custom React hooks and interactive Recharts data visualizations." },
+      { label: "Performance Tuning", text: "Improved load performance through route-level code splitting and built a simulated real-time POS sync feature." }
     ],
     tech: ["React.js", "Vite", "Tailwind CSS", "Recharts"],
     link: "https://deshan-h.github.io/expense-tracker/",

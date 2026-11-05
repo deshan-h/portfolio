@@ -60,16 +60,27 @@ export default function Experience() {
             <motion.div variants={item} className="relative pl-8">
               <div className="absolute w-4 h-4 bg-purple-400 rounded-full -left-[8.5px] top-6 shadow-[0_0_10px_rgba(168,85,247,0.8)]"></div>
               <div className="bg-slate-900 border border-slate-800 hover:border-purple-500/50 transition-colors p-6 rounded-xl shadow-[0_0_15px_rgba(168,85,247,0.15)] hover:shadow-[0_0_25px_rgba(168,85,247,0.25)]">
-                <h4 className="text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">Freelance Full-Stack Developer</h4>
+                <h4 className="text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">Freelance Full-Stack Software Engineer</h4>
                 <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3 mt-2 mb-4">
-                  <span className="text-slate-300 font-medium text-sm">DESH Digital Hub (Independent Freelancer)</span>
+                  <span className="text-slate-300 font-medium text-sm">DESH Digital Hub</span>
                   <span className="hidden sm:block text-slate-600">•</span>
-                  <span className="text-slate-400 text-sm">Aug 2026 - Present</span>
+                  <span className="text-slate-400 text-sm">Mar 2025 - Present</span>
                 </div>
                 <div className="text-slate-400 text-sm md:text-base leading-relaxed space-y-3 mt-4">
-                  <p>
-                    Deliver custom web solutions, enterprise dashboards, and modern SPAs for businesses through direct B2B contracts and professional referrals. Provide end-to-end development, ongoing maintenance, and critical bug fixes for existing web applications to ensure optimal performance.
-                  </p>
+                  <ul className="space-y-2.5">
+                    <li className="flex items-start gap-2.5">
+                      <span className="text-purple-400 font-bold mt-0.5">▹</span>
+                      <span>Architect and deliver custom web applications, enterprise POS dashboards, and scalable digital platforms (including <strong>DESH EduHub</strong>) using Next.js, React.js, Laravel, Supabase, and Cloudflare R2.</span>
+                    </li>
+                    <li className="flex items-start gap-2.5">
+                      <span className="text-purple-400 font-bold mt-0.5">▹</span>
+                      <span>Engineer automated CI/CD pipelines (GitHub Actions, Vercel) and serverless backend workflows, ensuring high uptime, fast content delivery, and optimal performance across live production systems.</span>
+                    </li>
+                    <li className="flex items-start gap-2.5">
+                      <span className="text-purple-400 font-bold mt-0.5">▹</span>
+                      <span>Build and manage direct B2B client relationships, translating complex business requirements into scalable full-stack solutions from conception through deployment.</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </motion.div>
@@ -88,19 +99,31 @@ export default function Experience() {
                   <ul className="space-y-2.5">
                     <li className="flex items-start gap-2.5">
                       <span className="text-cyan-500 font-bold mt-0.5">▹</span>
-                      <span>Managed a 50M+ record multi-tenant database, executing critical performance tune-ups via indexing, partitioning, queues, and raw SQL refactoring, and implemented WebSockets to minimize server costs and maximize real-time delivery tracking speeds.</span>
+                      <span>Led full-stack development of the <strong>Curfox Courier Management System</strong>, an enterprise logistics platform built on Laravel and Vue.js, supporting real-time delivery operations.</span>
                     </li>
                     <li className="flex items-start gap-2.5">
                       <span className="text-cyan-500 font-bold mt-0.5">▹</span>
-                      <span>Proactively monitored server infrastructure utilizing Huawei Cloud, Microsoft Clarity, and Sentry, successfully pinpointing areas for improvement and executing critical system optimizations.</span>
+                      <span>Re-architected a 50M+ record multi-tenant database implementing indexing, partitioning, queue-based processing, and raw SQL refactoring, significantly reducing query latency and infrastructure costs.</span>
                     </li>
                     <li className="flex items-start gap-2.5">
                       <span className="text-cyan-500 font-bold mt-0.5">▹</span>
-                      <span>Handled extensive server-side development, troubleshooted complex server-side issues, and orchestrated seamless production releases via Jenkins CI/CD pipelines while managing Linux staging environments.</span>
+                      <span>Implemented WebSocket-based real-time tracking, improving delivery visibility and system responsiveness for end users.</span>
                     </li>
                     <li className="flex items-start gap-2.5">
                       <span className="text-cyan-500 font-bold mt-0.5">▹</span>
-                      <span>Mentored and conducted technical training sessions for interns and junior team members.</span>
+                      <span>Monitored production infrastructure using Huawei Cloud, Microsoft Clarity, and Sentry, proactively identifying bottlenecks and driving measurable performance improvements.</span>
+                    </li>
+                    <li className="flex items-start gap-2.5">
+                      <span className="text-cyan-500 font-bold mt-0.5">▹</span>
+                      <span>Owned server-side development and troubleshooting, and managed Jenkins CI/CD pipelines to ensure smooth, low-downtime production releases across Linux staging environments.</span>
+                    </li>
+                    <li className="flex items-start gap-2.5">
+                      <span className="text-cyan-500 font-bold mt-0.5">▹</span>
+                      <span>Drove sprint planning and agile ceremonies using ClickUp, improving cross-functional delivery predictability for the team.</span>
+                    </li>
+                    <li className="flex items-start gap-2.5">
+                      <span className="text-cyan-500 font-bold mt-0.5">▹</span>
+                      <span>Mentored interns and junior engineers through structured technical training sessions, contributing to team skill growth and retention.</span>
                     </li>
                   </ul>
                   <div className="mt-4 inline-flex items-center gap-2 px-3 py-1 bg-yellow-500/10 border border-yellow-500/20 text-yellow-500 text-xs font-bold uppercase rounded shadow-inner">
